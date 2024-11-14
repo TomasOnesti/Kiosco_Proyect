@@ -1,0 +1,102 @@
+/* Contenedor principal del detalle del producto */
+.product-detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    gap: 30px; /* Espacio entre la imagen y los detalles */
+}
+
+/* Imagen del producto */
+.product-image {
+    position: relative;
+    max-width: 300px;
+    flex: 1;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Información del producto */
+.product-info {
+    flex: 2;
+}
+
+.product-name {
+    font-size: 1.8rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.price-info {
+    margin-bottom: 20px;
+}
+
+.current-price {
+    font-size: 28px;
+    color: #e60000;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.payment-link {
+    color: #e60000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    margin-top: 20px;
+}
+
+.product-description h3 {
+    font-size: 20px;
+    color: #c2c2c2;
+    margin-bottom: 10px;
+}
+
+.product-description p {
+    font-size: 16px;
+    color: #e1e1e1;
+    line-height: 1.5;
+}
+
+.price-info {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+.stock-info {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.action-btn {
+    background-color: #e63946; /* Rojo */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.action-btn:hover {
+    background-color: #d62839; /* Rojo más oscuro */
+}

@@ -1,0 +1,37 @@
+.Registro{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.posiciones{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.titulo{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cuadrito{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(95, 95, 95);
+}
+
+.control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;   
+}

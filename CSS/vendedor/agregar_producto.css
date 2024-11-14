@@ -1,0 +1,94 @@
+.Registro{
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(56, 49, 117);
+    box-shadow: 7px 13px 37px #000;
+}
+
+.Registro h4{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.Registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.Registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.Registro .boton{
+    width: 100%;
+    background: rgb(91, 156, 231);
+    border:none;
+    padding: 12px;
+    color: rgb(26, 24, 24);
+    margin:15px 0;
+    font-size: 15px;
+}
+
+.control{
+    width: 100%;
+    background: rgb(95, 95, 95);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(95, 95, 95);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+ #fondo{
+background: rgb(140,82,255);
+background: linear-gradient(270deg, rgba(140,82,255,1) 17%, rgba(53,51,205,1) 68%);
+} 
+
+h1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 2rem;
+    color: rgb(72, 223, 140);
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.Uno{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.Dos{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 900px){
+    .Registro {
+        width: 20rem;
+        background-color: rgba(0, 255, 255, 0.5);
+        padding: 30px;
+        margin: auto;
+        margin-top: 3rem;
+        border-radius: 4px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(56, 49, 117);
+        box-shadow: 7px 13px 37px #000;
+    }
+}

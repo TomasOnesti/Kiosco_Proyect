@@ -1,0 +1,10 @@
+.modificar {
+    position: absolute; /* Permite posicionar el elemento en relación a su contenedor */
+    bottom: 10px; /* Espacio desde el fondo */
+    right: 10px; /* Espacio desde la derecha */
+}
+
+.modificar-imagen {
+    width: 40px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+}

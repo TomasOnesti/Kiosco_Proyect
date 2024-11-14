@@ -1,0 +1,28 @@
+.agregar {
+    position: sticky;
+    bottom: 20px; /* Mantiene el botón 20px por encima del borde inferior de la ventana */
+    left: 20px; /* Coloca el botón a 20px desde la izquierda */
+    width: 70px;
+    height: 70px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.agregar:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+.agregar a {
+    text-decoration: none;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
