@@ -54,7 +54,7 @@
         if($rol == "admi"){
             echo "<div class=\"Contener_opciones\">
                 <Button class=\"botones_admin\"><a href=\"./Paginas/venta_admin.php\">$</a></Button>
-                
+                <Button class=\"botones_admin\"><a href=\"./Paginas/usuarios_admin.php\">usuarios</a></Button>
             </div>";
         } 
            

@@ -21,34 +21,7 @@
         include "../php/Conexion.php";
         echo"<div class=\"contenedor_h\">
             <img class=\"Logo\" src=\"../Img/Logo_kiosco.png\" alt=\"Logo\">
-         </div>
-            <div class=\"copy\">
-            <nav>
-                <li>
-                    <a href=\"chocolates.html\">
-                    <button class=\"Boton\">Chocolates</button>
-                    </a>
-                </li>
-                <li> 
-                    <button class=\"Boton\">Alfajores</button>
-                </li>
-                <li>
-                    <button class=\"Boton\">Golosinas</button>
-                </li>
-                <li>
-                    <button class=\"Boton\">Bebidas</button>
-                </li>
-                <li>
-                    <button class=\"Boton\">Menu</button>
-                </li>
-                <li>
-                    <button class=\"Boton desaparecer\">Promos</button>
-                </li>
-                <li>
-                    <button class=\"Boton desaparecer\" >Marcas</button>
-                </li>
-            </nav>
-        </div>";
+         </div>";
         ?>
     </header>
     <main>

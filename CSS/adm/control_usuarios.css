@@ -1,0 +1,38 @@
+.lista_nombre{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 20rem;
+}
+
+.estilo{
+    font: 20px;
+    color: #333;
+    padding: 1rem;
+    margin: 1rem;
+    }
+
+.estilo_de_btn_eliminar{
+    width: 4rem;
+    height: 4rem;
+    font-size: 1rem;
+    background-color: red;
+    border: solid black 2px;
+    border-radius: 100%;
+}
+
+.estilo_de_btn_cambiar{
+    width: 4rem;
+    height: 4rem;
+    font-size: 1rem;
+    background-color: green;
+    border: solid black 2px;
+    border-radius: 100%;
+}
