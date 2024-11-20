@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header("Location: ../Paginas/usuarios_admin.php"); // Cambia la URL según tu estructura
             exit();
         } else {
-            echo "Error al eliminar el producto.";
+            echo "Error al eliminar el Usuario.";
         }
     } else {
         echo "Error en la consulta SQL.";

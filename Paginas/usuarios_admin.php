@@ -46,7 +46,7 @@
 
     <script>
     function confirmarEliminacion() {
-        return confirm('¿Seguro que quieres eliminar este producto?');
+        return confirm('¿Seguro que quieres eliminar a este Usuario?');
     }
 </script>
 </body>
