@@ -8,8 +8,8 @@
 </head>
 <body>
     <main>
-        <h2>Compra confirmada. ¡Gracias por tu compra!</h2>
-        <a href="../index.php" class="btn">Volver al inicio</a>
+        <h2 class="mov_titulo">Compra confirmada. ¡Gracias por tu compra!</h2>
+        <a href="../index.php" class="btn mov_titulo">Volver al inicio</a>
     </main>
 </body>
 </html>
