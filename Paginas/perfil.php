@@ -8,22 +8,19 @@
     <link rel="stylesheet" href="../CSS/perfil.css">
 </head>
 <?php
- include '../php/Conexion.php';
-
-
  session_start();
-    if(isset($_SESSION['nombre'])){
-        $nombre = $_SESSION['nombre'];
-        $apellido = $_SESSION['apellido'];
-
-    } else {
-        $nombre = "Invitado"; 
-    }
-    if(isset($_SESSION['rol'])){
-        $rol = $_SESSION['rol'];
-    } else {
-        $rol = "cliente"; 
-    }
+ include '../php/Conexion.php';
+ $user = $_SESSION['usuario_id'];
+ $usuario_consulta = "SELECT `ID`, `Nombre`, `Apellido`, `Email`, `Contraseña`, `Rol` FROM `usuarios` WHERE ID =".$user."";
+ $result = $conexion->query( $usuario_consulta);
+ while($data = $result->fetch_assoc()){
+    $id = $data['ID'];
+    $nombre = $data['Nombre'];
+    $apellido = $data['Apellido'];
+    $contrasenia = $data['Contraseña'];
+    $correo = $data['Email'];
+    $rol = $data['Rol'];
+ }
 ?>
 <body>
     <header>
@@ -34,11 +31,16 @@
             </div>
     </header>
     <main>
-        <h1 class="nombre_perfil">Perfil de usuario: <?php echo $nombre;?></h1>
+        
+        <h1 class="nombre_perfil">Perfil de usuario: </h1>
         <div class="lista_nombre">
             <li><p class="estilo"><?php echo $nombre;?></p></li>
             <li><p class="estilo"><?php echo $apellido;?></p></li>
+            <li><p class="estilo"><?php echo $correo;?></p></li>
+            <li><p class="estilo"><?php echo $rol;?></p></li>
+            <li><p class="estilo"><?php echo $contrasenia;?></p></li>
         </div>
+
     </main>
 
 </body>
