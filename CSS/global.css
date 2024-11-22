@@ -180,6 +180,20 @@ nav, li{
     font-size: 1rem;
 }
 
+.logo-admi{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    top: 2.5px;
+    border: solid black 2px;
+    border-radius: 50%;
+}
+
+.logo_admin{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 /**/
 main{
     width: 100%;

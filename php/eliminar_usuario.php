@@ -7,13 +7,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "DELETE FROM usuarios WHERE ID = ?";
 
     if ($stmt = $conexion->prepare($sql)) {
-        // Enlazar el parámetro (ID del producto)
+        
         $stmt->bind_param("i", $id_usuario);
 
-        // Ejecutar la consulta
+        
         if ($stmt->execute()) {
-            // Redirigir de nuevo a la página de productos después de eliminar
-            header("Location: ../Paginas/usuarios_admin.php"); // Cambia la URL según tu estructura
+            
+            header("Location: ../Paginas/usuarios_admin.php"); 
             exit();
         } else {
             echo "Error al eliminar el Usuario.";
@@ -22,7 +22,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error en la consulta SQL.";
     }
 
-    // Cerrar la conexión
     $stmt->close();
 }
 ?>

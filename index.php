@@ -53,8 +53,8 @@
         }
         if($rol == "admi"){
             echo "<div class=\"Contener_opciones\">
-                <Button class=\"botones_admin\"><a href=\"./Paginas/venta_admin.php\">$</a></Button>
-                <Button class=\"botones_admin\"><a href=\"./Paginas/usuarios_admin.php\">usuarios</a></Button>
+                <Button class=\"botones_admin\"><a href=\"./Paginas/venta_admin.php\"><img class=\"logo-admi\" src=\"./Img/dolar-logo.png\" alt=\"ventas\"></a></Button>
+                <Button class=\"botones_admin\"><a href=\"./Paginas/usuarios_admin.php\"><img class=\"logo-admi\" src=\"./Img/Logo-usuario.png\" alt=\"usuarios\"></a></Button>
             </div>";
         } 
            
@@ -128,7 +128,7 @@
                     echo "<div class='eliminar'>
                             <form action='php/eliminar_producto.php' method='POST' class='delete-form' onsubmit='return confirmarEliminacion()'>
                                 <input type='hidden' name='id_producto' value='" . $row['ID'] . "'>
-                                <button type='submit' class='delete-button'> - </button>
+                                <button type='submit' class='delete-button'> <img class=\"logo_admin\" src=\"./Img/tacho.png\" alt=\"usuarios\"> </button>
                             </form>
                           </div>
                           <div class='modificar'>
