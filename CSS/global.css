@@ -194,6 +194,12 @@ nav, li{
     height: 1.5rem;
 }
 
+.usuarios_titulo{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
 /**/
 main{
     width: 100%;

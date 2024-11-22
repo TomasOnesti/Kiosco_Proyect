@@ -20,12 +20,14 @@
     </header>
 
     <main>
+    <h2 class="usuarios_titulo">Usuarios</h2>
 <?php
     $sql = "SELECT `ID`, `Nombre`, `Apellido`, `Email`, `Contraseña`, `Rol` FROM `usuarios` WHERE 1";
     $result = $conexion->query($sql);
     if($result->num_rows > 0){
         while($filas = $result->fetch_assoc()) {
          echo"<article>
+         
             <div class=\"lista_nombre\">
                     <li><p class=\"estilo\">".$filas['ID']."</p></li>
                     <li><p class=\"estilo\">".$filas['Nombre']."</p></li>
@@ -36,7 +38,7 @@
                     <input type='hidden' name='id_usuario' value='" . $filas['ID'] . "'>           
                     <button type=\"submit\" class=\"estilo_de_btn_eliminar\">Eliminar</button>
             </form>
-                    <button  type=\"submit\" id=\"cambios\" class=\"estilo_de_btn_cambiar\">Cambiar</button>
+                 
                 </div>
             </article>";
             }
